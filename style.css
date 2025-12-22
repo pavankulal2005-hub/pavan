@@ -11,6 +11,10 @@ body {
   color: #fff;
   
 }
+.logo{
+  color: #8999a0;
+  
+}
 
 /* Navbar */
 .navbar {
@@ -76,8 +80,8 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: linear-gradient(45deg, cyan, #00ffd5, #00aaff);
-  filter: blur(15px);
+  background: linear-gradient(45deg, rgb(55, 192, 242), #fa0000, #03ffff);
+  filter: blur(28px);
   animation: glow 3s linear infinite;
   z-index: -1;
 }
@@ -252,3 +256,4 @@ footer {
     font-size: 2rem;
   }
 }
+
