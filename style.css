@@ -11,35 +11,13 @@ body {
   color: #fff;
   
 }
-.gradient-text {
-    font-size: 30px;
-    font-weight: 89;
-    background: linear-gradient(
-        270deg,
-        #029a90,
-        #ff0606,
-        #fcfcfc,
-        #adfbff,
-        #e100ff
-    );
-    background-size: 400% 400%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradientMove 5s ease infinite;
+.logo{
+  color: #909192;
+
+
+  
 }
 
-/* Animation */
-@keyframes gradientMove {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
 
 /* Navbar */
 .navbar {
@@ -326,4 +304,3 @@ footer {
     font-size: 2rem;
   }
 }
-
