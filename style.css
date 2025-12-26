@@ -22,10 +22,10 @@ body {
 /* Navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 20px;
-  background: #020617;
+  padding: 13px;
+  background: #000000;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -34,24 +34,24 @@ body {
 .navbar nav a {
     text-align: center;
   color: #fff;
-  margin-left: 20px;
-  text-decoration: none;
-  position: relative;
+  margin-left: 40px;
+  text-decoration:none;
+  position:sticky;
 }
 
 .navbar nav a::after {
   content: '';
   width: 0;
-  height: 2px;
+  height: 3px;
   background: cyan;
   position: absolute;
   left: 0;
-  bottom: -5px;
-  transition: 0.3s;
+  bottom:-5px;
+  transition: 0.2s;
 }
 
 .navbar nav a:hover::after {
-  width: 100%;
+  width: 120%;
 }
 
 /* Hero */
@@ -80,22 +80,22 @@ body {
 .profile-pic::before {
   content: "";
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 130%;
+  height: 130%;
   border-radius: 50%;
-  background: linear-gradient(45deg, rgb(55, 192, 242), #fa0000, #03ffff);
-  filter: blur(28px);
-  animation: glow 3s linear infinite;
-  z-index: -1;
+  background: linear-gradient(45deg, rgb(55, 192, 242), #22ff00, #ececec, #ff8502, #ff8e03);
+  filter: blur(35px);
+  animation: glow 4s linear infinite;
+  z-index:-1;
 }
 
 .profile-pic img {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #020617;
-  background: #020617;
+  background: #050505;
 }
 
 
@@ -304,5 +304,6 @@ footer {
     font-size: 2rem;
   }
 }
+
 
 
